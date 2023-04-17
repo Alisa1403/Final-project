@@ -192,7 +192,7 @@
             Foreign KEY (animal_kind_id) REFERENCES pets (id) ON DELETE CASCADE ON UPDATE CASCADE
         );
         INSERT INTO cats (name, commands, birthday)
-        VALUES ('Яша', 'стоять', '2021-03-14'),
+        VALUES ('Яша', 'стоять', '2020-03-14'),
         ('Мурка', 'дай лапу', '2017-03-09'),
         ('Шелли', 'ко мне', '2019-02-21');
 
